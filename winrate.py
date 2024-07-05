@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot import types
 
-bot = telebot.TeleBot('6398464865:AAH7M9fWASUGNAKh3kMDIlvG5V3r529bhEA') #API bot
+bot = telebot.TeleBot('') #API bot
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
